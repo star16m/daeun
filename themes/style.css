@@ -1,0 +1,10 @@
+/* 커버 이미지는 사이즈 제한 */
+.post-cover{
+    max-width: 400px;
+    height: auto;
+}
+
+/* 실제 본문에서는 cover 이미지 안 보이도록 수정. */
+div.content > div.post > img.post-cover {
+    display: none;
+}
