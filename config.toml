@@ -1,0 +1,60 @@
+baseurl = "/"
+languageCode = "ko"
+theme = "hello-friend"
+paginate = 5
+
+[params]
+  # dir name of your blog content (default is `content/posts`)
+  contentTypeName = "posts"
+  # "light" or "dark"
+  defaultTheme = "light"
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems = 2
+  # Show reading time in minutes for posts
+  showReadingTime = false
+
+[languages]
+  [languages.en]
+    title = "다은이 소식"
+    subtitle = "A simple theme for Hugo"
+    keywords = ""
+    copyright = ""
+    menuMore = "메뉴"
+    writtenBy = " - "
+    readMore = "더 읽기"
+    readOtherPosts = "Read other posts"
+    newerPosts = "Newer posts"
+    olderPosts = "Older posts"
+    minuteReadingTime = "min read"
+    dateFormatSingle = "2006/01/02"
+    dateFormatList = "2006/01/02"
+
+    [languages.en.params.logo]
+      logoText = "다은이 소식"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "01_about"
+        name = "  다은이는요"
+        url = "/about"
+      [[languages.en.menu.main]]
+        identifier = "02_oneyear"
+        name = "  돌잔치 안내"
+        url = "/posts/oneyear"
+      [[languages.en.menu.main]]
+        identifier = "03_50days"
+        name = "50일 사진"
+        url = "/50days"
+      [[languages.en.menu.main]]
+        identifier = "04_100days"
+        name = "100일 사진"
+        url = "/100days"
+      [[languages.en.menu.main]]
+        identifier = "05_oneyear"
+        name = " 돌 사진"
+        url = "/oneyear"
