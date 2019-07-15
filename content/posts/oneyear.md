@@ -25,7 +25,11 @@ description: 다은이 돌잔치 시간 / 장소 공지입니다~!
   - 부산광역시 부산진서면 문화로 32 
   - 서면역 9번 출구에서 277m
 
-![갈비곳간](/posts/galbi.png)
+![갈비곳간](/posts/galbi/galbi.png)
+
+- 찾아 오시는 곳
+
+{{< figure src="/posts/galbi/map.png" title="찾아오시는길" >}}
 
 - 연락처
 
