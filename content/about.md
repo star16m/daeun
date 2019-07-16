@@ -1,7 +1,7 @@
 ---
 title: "다은이는요"
 date: 2018-08-13T12:14:00+09:00
-draft: true
+draft: false
 # cover: "/3.png"
 ---
 

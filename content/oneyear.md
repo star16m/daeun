@@ -1,7 +1,7 @@
 ---
 title: "돌사진"
 date: 2019-07-13T14:19:28+09:00
-draft: true
+draft: false
 ---
 
 
