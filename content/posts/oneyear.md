@@ -1,7 +1,7 @@
 ---
 title: "다은이 돌잔치 안내"
 date: 2019-07-13T13:44:16+09:00
-draft: false
+draft: true
 cover: "posts/oneyear.png"
 description: 다은이 돌잔치 시간 / 장소 공지입니다~!
 ---
