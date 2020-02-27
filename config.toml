@@ -1,7 +1,9 @@
-baseurl = "/"
+baseURL = "https://star16m.github.io/star16m/"
 languageCode = "ko-KR"
 theme = "hello-friend"
 paginate = 5
+publishDir = "docs"
+canonifyurls = true
 
 [params]
   # dir name of your blog content (default is `content/posts`)

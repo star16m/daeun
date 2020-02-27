@@ -1,0 +1,38 @@
+/* theme background 색상을 조금 수정. START */
+.header {
+    background: #eaeaea;
+}
+.dark-theme .header {
+    background: #4a4d50;
+}
+/* theme background 색상을 조금 수정. END */
+
+/* 커버 이미지는 사이즈 제한 */
+.post-cover{
+    /* max-width: 400px;
+    height: auto; */
+    float: left;
+    margin: 0px 15px 15px 0px;
+    width: 100px;
+}
+/* 리스트에서 표현할 시 좀더 작게 표현하기 위해 추가 START */
+.post {
+    margin: 0px;
+}
+.content {
+    align-items:inherit;
+}
+.post-title {
+    font-size: 1.5rem;
+    margin: 0 0 10px;
+}
+/* 리스트에서 표현할 시 좀더 작게 표현하기 위해 추가 END */
+
+/* 실제 본문에서는 cover 이미지 안 보이도록 수정. */
+div.content > div.post > img.post-cover {
+    display: none;
+}
+/* 왜인지 모르겠으나 760px 으로 되어 있어 100% 으로 수정. */
+.header__inner {
+    width: 100%;
+}
