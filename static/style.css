@@ -1,3 +1,7 @@
+img {
+    border-radius: 20px;
+}
+
 /* theme background 색상을 조금 수정. START */
 .header {
     background: #eaeaea;
