@@ -46,10 +46,10 @@ canonifyurls = true
         identifier = "01_about"
         name = "  다은이는요"
         url = "/about"
-      [[languages.en.menu.main]]
-        identifier = "02_oneyear"
-        name = "  돌잔치 안내"
-        url = "/posts/oneyear"
+      # [[languages.en.menu.main]]
+      #   identifier = "02_oneyear"
+      #   name = "  돌잔치 안내"
+      #   url = "/posts/oneyear"
       [[languages.en.menu.main]]
         identifier = "03_50days"
         name = "50일 사진"
