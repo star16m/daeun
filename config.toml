@@ -1,4 +1,4 @@
-baseURL = "https://star16m.github.io/daeun/"
+baseURL = "https://daeun.onrender.com/"
 languageCode = "ko-KR"
 theme = "hello-friend"
 paginate = 5
