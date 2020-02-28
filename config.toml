@@ -1,4 +1,4 @@
-baseURL = "https://daeun.onrender.com"
+baseURL = "https://daeun.onrender.com/posts/"
 languageCode = "ko-KR"
 theme = "hello-friend"
 paginate = 5
